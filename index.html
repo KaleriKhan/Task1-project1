@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Task #1 Portfolio Website</title>
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="logo">
+            <h2>Kaleri</h2>
+            <!-- Hidden checkbox -->
+            <input type="checkbox" id="menu-toggle">
+
+            <!-- Hamburger icon -->
+            <label for="menu-toggle" class="menu-icon">
+                ☰
+            </label>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section  -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h3>Hello, I'm</h3>
+            <h1>Kaleri Khan</h1>
+
+            <h2>Frontend Web Developer</h2>
+
+            <p>
+                I build modern and responsive websites using HTML, CSS, and JavaScript.
+                Passionate about creating clean UI and user-friendly web experiences.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container">
+
+            <div class="about-image">
+                <img src="images/about.png" alt="profile image">
+            </div>
+
+            <div class="about-text">
+                <p>
+                    I am a passionate Frontend Web Developer who enjoys building modern,
+                    responsive, and user-friendly websites. I have experience working with
+                    HTML, CSS, and JavaScript and I am continuously learning new
+                    technologies like React and Next.js.
+                </p>
+
+                <p>
+                    My goal is to create clean, efficient, and visually appealing web
+                    experiences that provide value to users and businesses.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="images/html-5.png" alt="HTML Icon">
+                HTML
+            </div>
+            <div class="skill-card">
+                <img src="images/css-3.png" alt="CSS Icon">
+                CSS
+            </div>
+            <div class="skill-card">
+                <img src="images/java-script.png" alt="JS Icon">
+                JavaScript
+            </div>
+            <div class="skill-card">
+                <img src="images/React.png" alt="React Icon">
+                React
+            </div>
+            <div class="skill-card">
+                <img src="images/nextdotjs.svg" alt="Next.js Icon">
+                Next.js
+            </div>
+            <div class="skill-card">
+                <img src="images/nodejs.png" alt="Node.js Icon">
+                Node.js
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="images/pinterest.png" alt="Pinterest Clone">
+                <h3>Pinterest Clone</h3>
+                <p>A Pinterest-style layout built using HTML, CSS, and JavaScript.</p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="images/resum.png" alt="Resume Project">
+                <h3>Resume Project</h3>
+                <p>A simple and professional resume page built with HTML & CSS.</p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="images/landingpage.png" alt="Gym Landing Page">
+                <h3>Gym Landing Page</h3>
+                <p>A clean landing page for a fitness website with modern design.</p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <p class="contact-intro">
+            Interested in working together? Send me a message or reach me on social media.
+        </p>
+
+        <div class="contact-container">
+
+            <!-- Contact Form -->
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+            <!-- Social Links -->
+            <div class="contact-social">
+                <a href="mailto:balochfahad636@gmail.com" class="btn-social" target="_blank"><i
+                        class="fas fa-envelope"></i></a>
+                <a href="https://github.com/KaleriKhan" class="btn-social btn-outline" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kalerikhan/" class="btn-social btn-outline" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>© 2026 Kaleri Khan. All rights reserved.</p>
+
+        <div class="footer-social">
+            <a href="mailto:balochfahad636@gmail.com" target="_blank">Email</a>
+            <a href="https://github.com/KaleriKhan" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/kalerikhan/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
